@@ -1,0 +1,37 @@
+{
+  "name": "trio-business-qafrontend",
+  "version": "1.0.0",
+  "description": "This is a UI automation project developed using Playwright and TypeScript.",
+  "main": "",
+  "scripts": {
+    "test-dev": "TEST_ENV=dev npx playwright test --headed && npx playwright show-report",
+    "test-stg": "TEST_ENV=stg npx playwright test --headed && npx playwright show-report",
+    "test-prod": "TEST_ENV=prod npx playwright test --headed && npx playwright show-report",
+    "headless-test-dev": "TEST_ENV=dev npx playwright test && npx playwright show-report",
+    "headless-test-stg": "TEST_ENV=sit npx playwright test && npx playwright show-report",
+    "headless-test-prod": "TEST_ENV=prod npx playwright test && npx playwright show-report",
+    "debug-test-dev": "TEST_ENV=dev npx playwright test --ui"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "nodejs",
+    "web-automation",
+    "test-automation"
+  ],
+  "author": "Mahendiran M",
+  "license": "ISC",
+  "devDependencies": {
+    "@esbuild-kit/esm-loader": "^2.6.5",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "@types/chance": "^1.1.6",
+    "chance": "^1.1.12",
+    "dotenv": "^16.5.0",
+    "nodemailer": "^7.0.3",
+    "otpauth": "^9.4.0",
+    "playwright": "^1.50.1"
+  }
+}
