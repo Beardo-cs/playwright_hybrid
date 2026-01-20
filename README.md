@@ -1,4 +1,4 @@
-# Playwright Web Automation Demo
+# Playwright Web & API Automation
 
 [![Playwright UI Tests](https://github.com/triosoftinc/trio-Business-QAFrontend/actions/workflows/playwright-ui-test.yml/badge.svg)](https://github.com/triosoftinc/trio-Business-QAFrontend/actions/workflows/playwright-ui-test.yml)
 
@@ -68,7 +68,7 @@ This repository contains a Playwright UI test written in TypeScript and is confi
 ## Project Structure
 
 ```plaintext
-playwright-web-automation-demo/
+playwright-web-api-automation/
 ├── .github/
 │   └── workflows/
 │       └── playwright-ui-test.yml
